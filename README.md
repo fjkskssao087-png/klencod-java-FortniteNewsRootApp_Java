@@ -1,2 +1,15 @@
-# klencod-java-FortniteNewsRootApp_Java
-Project created by KLENCOD IDE
+# Fortnite News Pro (Android Java + Magisk Root)
+
+مشروع أندرويد متكامل مكتوب بلغة **Java** جاهز للفتح والبناء في **Android Studio**.
+
+## المميزات المضمنة في المشروع:
+1. **طلب صلاحيات الروت تلقائياً عند الدخول (`MainActivity.java` & `RootHelper.java`)**: يستدعي أمر `su` في خيط منفصل لإظهار نافذة Magisk الرسمية وطلب الصلاحية فور فتح التطبيق.
+2. **جلب أخبار فورت نايت الحية باللغة العربية**: متصل مباشرة بـ `Fortnite-API` لعرض أخبار الباتل رويال، طور الزومبي، والإبداعي مع الصور والتحديث التلقائي.
+3. **تفاعل لمس سلس + السحب للتحديث (`SwipeRefreshLayout`)**: تجربة أصلية بالكامل.
+4. **جسر تواصل ثنائي (`JavascriptInterface`)**: يربط كود Java الأصلي بواجهة التطبيق لعرض حالة الروت أو إعادة طلب الصلاحية.
+
+## طريقة استخراج ملف APK:
+1. فك الضغط عن هذا الملف.
+2. افتح برنامج **Android Studio** واختر **Open** ثم حدد مجلد `FortniteNewsRootApp`.
+3. انتظر حتى ينتهي Gradle من تحميل المكتبات.
+4. من القائمة العلوية اختر: `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
